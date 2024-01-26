@@ -2,7 +2,7 @@ const getElementToRender = document.getElementById("result");
 
 function getInputValue() {
   const input = document.getElementById("hours-worked");
-  return input.value;
+  return input.value.trim();
 }
 
 function getHoursWorked(periods) {
